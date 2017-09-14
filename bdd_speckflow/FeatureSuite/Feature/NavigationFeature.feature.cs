@@ -125,6 +125,27 @@ this.ScenarioSetup(scenarioInfo);
 #line hidden
             this.ScenarioCleanup();
         }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Search for the Flights")]
+        [NUnit.Framework.CategoryAttribute("smoketest")]
+        public virtual void SearchForTheFlights()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Search for the Flights", new string[] {
+                        "smoketest"});
+#line 28
+this.ScenarioSetup(scenarioInfo);
+#line 29
+ testRunner.Given("I have entered the URL of KLM", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 30
+ testRunner.And("Iam on the Welcomepage of KLM", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 31
+ testRunner.When("I clicked  on the Norway  Link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 32
+ testRunner.Then("I should landed on the Norway Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
     }
 }
 #pragma warning restore

@@ -23,4 +23,10 @@ Scenario: VerifyUKLinkNavigation
 	And Iam on the Welcomepage of KLM
 	When I clicked  on the UK  Link
 	Then I should landed on the UK Page
-	
+
+	@smoketest
+Scenario:Search for the Flights
+	Given I have entered the URL of KLM
+	And Iam on the Welcomepage of KLM
+	When I clicked  on the Norway  Link
+	Then I should landed on the Norway Page
