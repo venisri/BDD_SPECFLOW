@@ -128,11 +128,11 @@ this.ScenarioSetup(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Search for the Flights")]
-        [NUnit.Framework.CategoryAttribute("smoketest")]
+        [NUnit.Framework.CategoryAttribute("smoketest1")]
         public virtual void SearchForTheFlights()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Search for the Flights", new string[] {
-                        "smoketest"});
+                        "smoketest1"});
 #line 28
 this.ScenarioSetup(scenarioInfo);
 #line 29
