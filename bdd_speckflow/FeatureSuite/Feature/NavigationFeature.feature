@@ -3,7 +3,7 @@
 
 @UI
 Scenario: VerifyGermanyLinkNavigation
-	Given I have entered the URL of KLM
+	Given I  entered the URL of KLM
 	And Iam on the Welcomepage of KLM
 	When I clicked  on the Germany  Link
 	Then I should landed on the Germany Page
