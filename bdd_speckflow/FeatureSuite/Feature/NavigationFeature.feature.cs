@@ -73,7 +73,7 @@ namespace bdd_speckflow.FeatureSuite.Feature
 #line 5
 this.ScenarioSetup(scenarioInfo);
 #line 6
- testRunner.Given("I  entered the URL of KLM", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I have  entered the URL of KLM", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 7
  testRunner.And("Iam on the Welcomepage of KLM", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 8
